@@ -1,6 +1,6 @@
 # React Actions
 
-## Overview 
+## Overview
 
 In this lesson we look at how decoupling certain functions into isolated `actions` allows us to de-couple handlers from the component they operate on.
 
@@ -42,7 +42,7 @@ class ToggleButton extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      // initially our `ToggleButton` is 
+      // initially our `ToggleButton` is
       enabled: false
     };
   }
@@ -132,7 +132,7 @@ class ToggleButton extends Toggleable {
   constructor (props) {
     super(props);
     this.state = {
-      // initially our `ToggleButton` is 
+      // initially our `ToggleButton` is
       enabled: false
     };
   }
@@ -243,3 +243,4 @@ And that's it! Now we modularized our `toggleState` handler! Instead of duplicat
 ## Resources
 
 - [Flux: Actions](https://facebook.github.io/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html)
+<3
